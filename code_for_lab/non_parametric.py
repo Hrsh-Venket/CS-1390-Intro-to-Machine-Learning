@@ -95,9 +95,9 @@ class DTN:
         if self.fi == None:             # leaf
             return self.p               # prob of posistive
         elif x[self.fi] < self.th:
-            return ##TODO??
+            return 1 ##TODO??
         else:
-            return ##TODO??
+            return -1##TODO??
 
     def display(self, depth=0, max_depth=3):
         if depth > max_depth:
